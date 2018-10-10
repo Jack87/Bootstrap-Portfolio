@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Imports -->
     <link rel="stylesheet" href="./assets/css/cssReset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>About</title>
@@ -13,10 +15,6 @@
 <body>
     
     <header>
-        <!-- <div class="wrapper"> -->
-            <!-- <div class="logo">
-                <h1>Akop Karapetyan</h1>
-            </div>  -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Akop Karapetyan</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,31 +28,28 @@
                   </div>
                 </div>
               </nav>
-            <!-- <nav class="nav">
-                <ul>
-                    <li><a href="#" class="active">About</a></li>
-                    <li><a href="portfolio.html" class="withDivider">Portfolio</a></li>
-                    <li><a href="contact.html" class="withDivider">Contact</a></li>
-                </ul>
-            </nav> -->
-        <!-- </div> -->
     </header>
 
-    <section class="content">
-        <div class="wrapper main">
-            <h2>
-                About Me
-            </h2>    
-            <p class="mainContent">
-                <img class="headshot" src="./assets/images/profileImage.jpeg" alt="Photo of Akop (Jack) Karapetyan">
-                Yup that's me! I live in Colorado. Moved here in February of 2018 and it has been quite the adventure. Before that I was living in Rhode Island for almost seven years. I had moved there for a job working with information technology in the motorcycle industry which was a great opportunity to combine two passions of mine. I went to school in Utah from 7th grade to college. Although I put my education on hold for my opportunity in Rhode Island I am planning on going back to finish a degree in Computer Engineering. 
-            <br><br>
-                I enjoy riding motorcycles. I have been riding for about 10 years now. I own several motorcycles now and each has its own charm when it comes to the style of riding. I love that motorcycles can make for a great tool for transportation but also a way to enjoy life. I personally choose to work on my bikes on my own if I can help it. There is a lot of pride when I'm able to get my hands dirty and end up with the results I want in the end.
-            <br><br>
-                I am also a huge fan of technology. I have been working with technology since I was about thirteen years old. The first computer I ever had had a lot of issues; this gave me an opportunity to learn to resolve them. 
-            <p class="mainContent">
-                Lately I have acquired a passion for hiking and camping. It's not something I ever did growing up. As odd as that may be since I was living in Utah. It's definitely something I had always been interested in and as of late I have been exploring my love for nature. It's always an adventure and never goes as expected.
-            </p>
+    <section class="content container-fluid container">
+        <div class="wrapper main row">
+            <div class = col> 
+                <h2 class="row">
+                    About Me
+                </h2>
+                <div class= "row media"> 
+                    <img class="headshot mr-3" src="./assets/images/profileImage.jpeg" alt="Photo of Akop (Jack) Karapetyan">
+                    <p class="mainContent media-body">
+
+                        Yup that's me! I live in Colorado. Moved here in February of 2018 and it has been quite the adventure. Before that I was living in Rhode Island for almost seven years. I had moved there for a job working with information technology in the motorcycle industry which was a great opportunity to combine two passions of mine. I went to school in Utah from 7th grade to college. Although I put my education on hold for my opportunity in Rhode Island I am planning on going back to finish a degree in Computer Engineering. 
+                    <br><br>
+                        I enjoy riding motorcycles. I have been riding for about 10 years now. I own several motorcycles now and each has its own charm when it comes to the style of riding. I love that motorcycles can make for a great tool for transportation but also a way to enjoy life. I personally choose to work on my bikes on my own if I can help it. There is a lot of pride when I'm able to get my hands dirty and end up with the results I want in the end.
+                    <br><br>
+                        I am also a huge fan of technology. I have been working with technology since I was about thirteen years old. The first computer I ever had had a lot of issues; this gave me an opportunity to learn to resolve them. 
+                    <br><br>    
+                        Lately I have acquired a passion for hiking and camping. It's not something I ever did growing up. As odd as that may be since I was living in Utah. It's definitely something I had always been interested in and as of late I have been exploring my love for nature. It's always an adventure and never goes as expected.
+                    </p>
+                </div> 
+            </div>
         </div>
     </section>
     
@@ -65,5 +60,10 @@
         </div>
     </footer>
 
+
+    <!-- Bootstrap JavaScript Imports -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
