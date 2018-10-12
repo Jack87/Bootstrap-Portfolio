@@ -13,9 +13,9 @@
         <title>About</title>
     </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border p-0" >
-            <a class="navbar-brand text-white text-center font- bg-secondary ml-5 pt-4 pl-3 pr-3 mh-100 " href="#">Akop Karapetyan</a>
+    <header class= "bg-light">
+        <nav class="container navbar navbar-expand-lg navbar-light bg-light  bl-0 br-0 bb-1 p-0">
+            <a class="navbar-brand text-white text-center bg-secondary ml-0 pt-4 pl-3 pr-3 mh-100 " href="#">Akop Karapetyan</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,26 +35,29 @@
         </nav>
     </header>
     
-
-    <section class="content container-fluid container ">
-        <div class="wrapper main mt-4 border mb-5 bg-light border-2 p-3">
-        <h2 class="ml-5 mr-3 font-weight-bold display-5 mt-3 text-secondary">
-            Contact
-        </h2>
-        <form class="ml-5 mr-5 border-top">
-            <div class="form-group pt-3">
-               <label for="exampleFormControlInput1">Name</label>
-                <input type="text" class="form-control" id="formName" placeholder="John Doe">
+    
+    <section class="content container-fluid container">
+        <div class="row wrapper main mt-4 border mb-5 bg-light border-3">
+            <div class="container">
+                <h2 class="ml-3 mr-3 font-weight-bold display-5 mt-3 text-secondary">
+                    Contact
+                </h2>
+                <form class=" mt-3 ml-3 mr-3 pb-4 border-top">
+                    <div class="form-group pt-3">
+                        <label for="formControlInput1">Name</label>
+                        <input type="text" class="form-control" id="formName" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="formControlInput2">Email address</label>
+                        <input type="email" class="form-control" id="formEmail" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="formControlTextarea1">Message</label>
+                        <textarea class="form-control mb-3" id="formMessage" rows="7" placeholder="Write a message."></textarea>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                 <label for="exampleFormControlInput2">Email address</label>
-                  <input type="email" class="form-control" id="formEmail" placeholder="name@example.com">
-            </div>                     
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control mb-3" id="formMessage" rows="7" placeholder="Write a message."></textarea>
-            </div>
-        </form>
+        </div>
     </section>
 
     <div class="spacer mt-5"></div>
