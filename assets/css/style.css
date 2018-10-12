@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+    font-size: 1rem;
+ }
 .navbar-brand{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
@@ -25,10 +29,12 @@ footer {
     
     
 }
-/* .navbar {
-    height: 75px;
-    color: #ffffff;
+nav {
+    float: none;
+    text-align: center;
+
 }
+
 a {
     color: #999999;
-} */
+} 
