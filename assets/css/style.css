@@ -8,6 +8,9 @@
     background: #999999;
     line-height: 25px;
 }
+header {
+    width: 100%;
+}
 h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
