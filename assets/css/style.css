@@ -14,18 +14,20 @@ h1, h2 {
 .navbar-brand {
     margin: 0;
 }
+html {
+    height: 100%;
+}
 body {
     background-image: url("../images/vintage-concrete.png");
     position: relative;
     min-height: 100%;
     margin: 0;
-    margin-bottom: -100px;
 }
 footer {
     border-top: 8px solid #4aaaa5;
     position: absolute;
     width: 100%;
-    flex-shrink: 0;
+    bottom: 0;
     
     
 }
