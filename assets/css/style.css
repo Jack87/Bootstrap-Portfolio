@@ -4,6 +4,9 @@
     background: #999999;
     line-height: 25px;
 }
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
 /* .navbar {
     height: 75px;
     color: #ffffff;
