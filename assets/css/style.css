@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
-    font-size: 1rem;
  }
 .navbar-brand{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
     background: #999999;
     line-height: 25px;
+    font-size: 28px;
 }
 header {
     width: 100%;
@@ -21,10 +21,13 @@ html {
     height: 100%;
 }
 body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/vintage-concrete.png");
     position: relative;
     min-height: 100%;
     margin: 0;
+    font-size: 20px;
+    color: #4aaaa5
 }
 footer {
     border-top: 8px solid #4aaaa5;
