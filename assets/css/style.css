@@ -49,3 +49,12 @@ a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
   }
+
+/* .hover-outline { 
+    margin-left: 30px;
+    margin-top: 10px;
+} */
+.hover-outline:hover {
+    outline: 5px solid gray;
+    outline-offset: 10px;
+}
