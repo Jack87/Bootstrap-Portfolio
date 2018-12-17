@@ -58,3 +58,6 @@ a {
     outline: 5px solid gray;
     outline-offset: 10px;
 }
+.modalCont {
+    width: 960px !important;
+}
